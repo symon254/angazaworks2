@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+	transition: all ease-in-out 250ms;
+}
+body{
+	font-family: arial,helvetica,sans-serif;
+}
+.wel{
+	
+	font-size: 26px;
+	font: bold 100px;
+	color: black;
+}
+.wel a{
+	
+	text-decoration: none;
+	color: black;
+}
+
+.tsong{
+	
+	display: flex;
+	flex-wrap: wrap;
+}
+.tpic{
+
+	flex: 10%;
+	display: block;
+	overflow: hidden;
+}
+.tdata{
+	flex: 50%;
+    display: block;
+    flex-wrap: wrap;
+}

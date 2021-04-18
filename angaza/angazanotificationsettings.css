@@ -1,0 +1,150 @@
+*{
+	box-sizing: border-box;
+	transition: all ease-in-out 250ms;
+}
+body{
+	font-family: arial,helvetica,sans-serif;
+}
+.wel{
+	
+	font-size: 26px;
+	font: bold 100px;
+	color: black;
+}
+.wel a{
+	
+	text-decoration: none;
+	color: black;
+}
+.wel2{
+	text-align: center;
+	font-size: 26px;
+	font: bold 50px;
+	color: black;
+}
+.wel12{
+	text-align: center;
+	font-size: 16px;
+	font: bold 50px;
+	color: black;
+}
+
+.scroll{
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	align-items: center;
+
+}
+.port-item{
+	display: inline-block;
+	position: relative;
+	border-radius: 25px;
+}
+.desc{
+	position: absolute;
+	z-index: 100;
+	bottom: 0em;
+	left: 0em;
+	right: 0em;
+	color: white;
+	background: rgba(0,0,0,.75);
+	padding-bottom: 2em;
+	margin-top: 10px;
+}
+.desc{
+	margin: 5px; 
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.desc1{
+	position: absolute;
+	z-index: 100;
+	bottom: 0em;
+	left: 0em;
+	right: 0em;
+	color: white;
+	background: rgba(0,0,0,0);
+	padding-bottom: 2em;
+	margin-top: 10px;
+	margin: 5px; 
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.tsong{
+	
+	display: flex;
+	flex-wrap: wrap;
+}
+.tpic{
+
+	flex: 10%;
+	display: block;
+	overflow: hidden;
+}
+.tdata{
+	flex: 50%;
+    display: block;
+    flex-wrap: wrap;
+}
+.switch{
+			position: relative;
+			display: inline-block;
+			width: 60px;
+			height: 34px;
+		}
+		.switch input{
+			opacity: 0;
+			width: 0;
+			height: 0;
+
+		}
+		.slider{
+			position: absolute;
+			cursor: pointer;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: #ccc;
+			-webkit- transition:.4s;
+			transition: .4s;
+		}
+		.slider:before{
+			position: absolute;
+			content: "";
+			height: 26px;
+			width: 26px;
+			left: 4px;
+			bottom: 4px;
+			background-color: white;
+			-webkit-transition:.4s;
+			transition: .4s;
+
+		}
+		input:checked + .slider{
+			background-color: #2196f3;
+		}
+		input:focus + .slider{
+			box-shadow: 0 0 1px #2196f3;
+		}
+		input:checked + .slider:before {
+			-webkit-transform:translateX(26px);
+			-ms-transform:translateX(26px);
+			transform: translateX(26px);
+		}
+		.slider .round{
+			border-radius: 34px;
+		}
+		.slider .round:before {
+			border-radius: 34%;
+		}
+		.round:before {
+			border-radius: 50%;
+		}

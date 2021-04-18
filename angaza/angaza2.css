@@ -1,0 +1,41 @@
+*{
+	box-sizing: border-box;
+	transition: all ease-in-out 250ms;
+}
+body{
+	font-family: arial,helvetica,sans-serif;
+}
+.wel{
+	text-align: center;
+	font-size: 46px;
+	font: bold 100px;
+	color: black;
+}
+.wel2{
+	text-align: center;
+	font-size: 26px;
+	font: bold 50px;
+	color: black;
+}
+.main{
+	padding: 110px;
+	padding-top: 50px;
+	padding-bottom: 215px;
+	background-image: url(anga.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+   
+}
+.sig button{
+	padding: 10px;
+	width: 70%;
+	color: white;
+	margin-left: 50px;
+	border-radius: 25px;
+	background-color: grey;
+	border-bottom-style: hidden;
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+}

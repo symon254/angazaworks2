@@ -1,0 +1,95 @@
+*{
+	box-sizing: border-box;
+	transition: all ease-in-out 250ms;
+}
+body{
+	font-family: arial,helvetica,sans-serif;
+}
+.wel{
+	
+	font-size: 26px;
+	font: bold 100px;
+	color: black;
+}
+.wel a{
+	
+	text-decoration: none;
+	color: black;
+}
+.wel2{
+	text-align: center;
+	font-size: 30px;
+	font: bold 50px;
+	color: black;
+}
+.wel12{
+	text-align: center;
+	font-size: 16px;
+	font: bold 50px;
+	color: black;
+}
+
+.scroll{
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	align-items: center;
+
+}
+.port-item{
+	display: inline-block;
+	position: relative;
+	border-radius: 25px;
+}
+.desc{
+	position: absolute;
+	z-index: 100;
+	bottom: 0em;
+	left: 0em;
+	right: 0em;
+	color: white;
+	background: rgba(0,0,0,.75);
+	padding-bottom: 2em;
+	margin-top: 10px;
+}
+.desc{
+	margin: 5px; 
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.desc1{
+	position: absolute;
+	z-index: 100;
+	bottom: 0em;
+	left: 0em;
+	right: 0em;
+	color: white;
+	background: rgba(0,0,0,0);
+	padding-bottom: 2em;
+	margin-top: 10px;
+	margin: 5px; 
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.tsong{
+	
+	display: flex;
+	flex-wrap: wrap;
+}
+.tpic{
+
+	flex: 10%;
+	display: block;
+	overflow: hidden;
+}
+.tdata{
+	flex: 50%;
+    display: block;
+    flex-wrap: wrap;
+}
